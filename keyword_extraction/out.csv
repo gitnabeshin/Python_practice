@@ -1,0 +1,7 @@
+No.,file,test_func,feature1,feature2,feature3
+1,test1.rs,test_parallel(),parallel,serde,
+2,test1.rs,test_serde(),serde,,
+3,test1.rs,test_special(),special,,
+4,test2.rs,test_parallel(),parallel,serde,special
+5,test2.rs,test_serde(),serde,,
+6,test2.rs,test_special(),special,,
