@@ -28,13 +28,13 @@ mod tests {
 
     #[cfg(feature = "serde")]
     #[test]
-    fn test_serde() {
+    fn test_serde2() {
         serde();
     }
 
     #[cfg(feature = "special")]
     #[test]
-    fn test_special() {
+    fn test_special2() {
         special();
     }
 }

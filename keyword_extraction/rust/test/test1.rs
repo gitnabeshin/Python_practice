@@ -21,19 +21,19 @@ mod tests {
     #[cfg(feature = "parallel")]
     #[cfg(feature = "serde")]
     #[test]
-    fn test_parallel() {
+    fn test_parallel1() {
         parallel();
     }
 
     #[cfg(feature = "serde")]
     #[test]
-    fn test_serde() {
+    fn test_serde1() {
         serde();
     }
 
     #[cfg(feature = "special")]
     #[test]
-    fn test_special() {
+    fn test_special1() {
         special();
     }
 }
