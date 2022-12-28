@@ -4,8 +4,6 @@ import glob
 
 out_data = []
 in_file = pd.ExcelFile("./data/test_items.xlsx")
-
-in_file = pd.ExcelFile("./data/test_items.xlsx")
 print(in_file.sheet_names)
 
 for sheet_name in in_file.sheet_names:
